@@ -16,3 +16,11 @@ favorite_songs = {
 print (len (favorite_songs['Дима']))
 # здесь напишите код, который напечатает
 print (', '.join (favorite_songs['Соня']))
+
+import datetime as dt
+
+
+moment_in_time = dt.datetime(1961, 4, 12, 9, 7, 0)  # снова старт Гагарина
+
+now = moment_in_time.utcnow()
+print(now)
